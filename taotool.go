@@ -1,5 +1,5 @@
 package taotool
 
 /**
-入口
+入口实例化
 */
