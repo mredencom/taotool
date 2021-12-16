@@ -5,9 +5,13 @@ type THash struct {
 
 type Hash interface {
 	// AdditiveHash 加法hash
-	// key 字符串
-	// prime 一个质数
 	AdditiveHash(key string, prime int) int
+	// RotatingHash 旋转hash
+	RotatingHash(key string, prime int) int
+	// OneByOneHash 一次一个hash
+	OneByOneHash(key string, prime int) int
+
+	Bernstein(key string) int
 }
 
 func (THash) AdditiveHash(key string, prime int) int {

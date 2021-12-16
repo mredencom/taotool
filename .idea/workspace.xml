@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="b9368ac4-24ad-4dd8-bb05-f8d856190c2c" name="Changes" comment="fix">
-=======
-    <list default="true" id="b9368ac4-24ad-4dd8-bb05-f8d856190c2c" name="Changes" comment="init">
->>>>>>> de75c0c054e1984ab9b6d168b8a98455c7950c87
+    <list default="true" id="3ac58675-e7a5-4263-b108-bd3d13b5a2f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/log/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutil/taes/taes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutil/tbase64/tbase64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutil/tid/uuid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutil/tmd5/tmd5.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutil/trsa/trsa.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taotool.go" beforeDir="false" afterPath="$PROJECT_DIR$/taotool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutil/thash/thash.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutil/thash/thash.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutil/tid/tid.go" beforeDir="false" afterPath="$PROJECT_DIR$/tutil/tid/tid.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,31 +27,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file:///usr/local/go/src/math/rand/rand.go" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="22GcCF86XIDblzPhM1SgetJZw0I" />
+  <component name="ProjectId" id="22MfIBCd1ctBz11oTowgvZUL1zg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -53,32 +50,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable..is.expanded" value="false" />
-    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
-<<<<<<< HEAD
     <property name="go.format.on.save.advertiser.fired" value="true" />
-=======
->>>>>>> de75c0c054e1984ab9b6d168b8a98455c7950c87
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-<<<<<<< HEAD
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-=======
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
->>>>>>> de75c0c054e1984ab9b6d168b8a98455c7950c87
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,11 +80,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix" />
-    <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>
